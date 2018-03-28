@@ -5,3 +5,4 @@ pip install pyobjc-core pyobjc
 pip install Pillow
 pip install pyautogui
 python screenwaker.py
+deactivate
