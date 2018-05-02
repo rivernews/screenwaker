@@ -8,7 +8,7 @@ width, height = pyautogui.size()
 def foo():
     while True:
       print('invoked!')
-      pyautogui.moveTo(width/2, height/2)
+      pyautogui.moveTo(width/2, height-40)
       pyautogui.moveRel(10, 10)
       time.sleep(5)
 
