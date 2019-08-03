@@ -1,4 +1,4 @@
-is_python_three_installed=$(eval command -v python77)
+is_python_three_installed=$(eval command -v python3)
 
 function activate_install_and_run {
     . ./venv/bin/activate
